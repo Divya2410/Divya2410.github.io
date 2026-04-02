@@ -55,3 +55,71 @@ Detailed descriptions of three main research projects:
   - GitHub: [Divya2410](https://github.com/Divya2410)
 
 ## 📁 Project Structure
+
+
+## 🛠️ How to Customize
+
+### Update Your Information
+1. **Personal Details**: Edit the header section in `index.html` (lines 45-65)
+   - Change name, institution, position
+   - Update your profile photo (line 54)
+   - Modify your CV link (line 64)
+
+2. **About Section**: Update the "About Me" content (lines 119-132)
+   - Replace with your personal bio and research focus
+
+3. **Research Projects**: Modify the research section (lines 143-237)
+   - Add/remove research projects
+   - Update descriptions and images
+   - Add publication links
+
+4. **Contact Information**: Update the Contact section (line 302)
+   - Replace email address
+   - Update social media links (lines 316-332)
+
+### Styling
+- **Primary Stylesheet**: `assets/css/main.css`
+- **Add Custom Styles**: Create a new CSS file and link it in the `<head>` section
+- **Responsive Design**: Uses CSS media queries for mobile optimization
+
+### Images
+- Place your images in the `images/` folder
+- Update image paths in `index.html` to reference new images
+- Recommended formats: JPG (photos), PNG (graphics with transparency)
+
+## 🚀 Deployment
+
+This site is hosted on GitHub Pages:
+1. Make changes to your files
+2. Commit and push to your repository
+3. GitHub automatically deploys updates to `https://Divya2410.github.io`
+
+## 📚 Technologies Used
+
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Modern styling with flexbox and grid
+- **JavaScript**: Interactive features and smooth transitions
+- **jQuery**: DOM manipulation and animations
+- **Font Awesome**: Icon library for social media links
+
+## 📝 Credits & Attribution
+
+**Template**: Dimension by [HTML5 UP](https://html5up.net)
+- Licensed under CCA 3.0 License
+- Original design: [@ajlkn](https://twitter.com/ajlkn)
+
+**External Resources**:
+- [jQuery](https://jquery.com/): DOM manipulation
+- [Font Awesome](https://fontawesome.io/): Icon fonts
+- [Responsive Tools](https://github.com/ajlkn/responsive-tools): Responsive framework
+
+## 📄 License
+
+This project uses the Dimension template which is licensed under the Creative Commons Attribution 3.0 License. See LICENSE.txt for full details.
+
+---
+
+**Last Updated**: April 2, 2026  
+**Author**: Divya Mishra  
+**Contact**: dimi_24@tamu.edu  
+**Website**: [https://Divya2410.github.io](https://Divya2410.github.io)
