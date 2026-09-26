@@ -1,370 +1,217 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
+	Research website built on "Dimension" by HTML5 UP (html5up.net | @ajlkn)
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	HOW TO EDIT THIS PAGE
+	- Anything marked  EDIT  is placeholder text for you to replace.
+	- Each tab (Intro, Research, CV, Community, Contact) is an <article> block below.
+	- The "Hobby" button opens gallery.html (the photo page).
+	- Background picture: images/bg.jpg  (replace with your own space photo, same name).
 -->
-<html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
+<html lang="en">
 	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>Divya's Webpage</title>
+		<!-- EDIT: the name shown in the browser tab -->
+		<title>Your Name · Research</title>
 		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="keywords" content="astronomy, astro, tamu, supernova, sn, texas a&m university">
-		<meta name="author" content="Divya Mishra">
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
+		<meta name="description" content="Personal research website of Your Name." />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<!-- The body is the location where your site's content will go -->
 	<body class="is-preload">
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+		<!-- Wrapper -->
 			<div id="wrapper">
 
-					<!-- This is where the content that appears on page load exists -->
+				<!-- ============ FRONT PAGE ============ -->
 					<header id="header">
-						<!-- This is the main content of the front page -->
+						<div class="logo">
+							<span class="icon fa-rocket"></span>
+						</div>
 						<div class="content">
 							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Divya Mishra
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
-
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/Divya_new.jpg" style="width:280px; height:280px;object-fit: cover">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Graduate Student <br> Astronomy <br> Texas A&M University
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/CV_latest (5).pdf" target="_blank">Curriculum Vitae</a>
-								</p>
+								<!-- EDIT: your name and your one line about you -->
+								<h1>Your Name</h1>
+								<p>Researcher exploring the questions that keep me up at night — one line about you goes here.</p>
 							</div>
 						</div>
-						<!-- This is the navigation menu -->
 						<nav>
-							<!-- This element makes an "Unordered List" -->
 							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-							
-								<li>
-									<a href="#resources">Posters & Talks</a>
-								
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-								<li>
-									<a href="#Images">Images</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
+								<li><a href="#intro">About</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#cv">CV</a></li>
+								<li><a href="#community">Community</a></li>
+								<li><a href="gallery.html">Hobby</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 					</header>
 
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+				<!-- Main -->
 					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/IMG_5615.JPG" alt=""/>
-							</span>
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-							Hi! I am Divya, a 4th year graduate student at Texas A&M University. My research focuses on the diversity of Type Ia supernovae, investigating their progenitor systems and explosion mechanisms to enhance 
-								their reliability as standard candles in cosmology. These thermonuclear explosions are fundamental to measuring extragalactic distances, and a deeper understanding of their intrinsic variations is critical 
-								for refining constraints on the accelerated expansion of the universe. Additionally, I study optical polarization in galaxies to probe the signatures of interstellar dust, magnetic fields, and large-scale 
-								galactic structures. By analyzing the polarization properties of light, my work aims to explain the physical processes governing the interstellar medium and the structural evolution of galaxies within 
-								the cosmic framework.
 
+						<!-- ============ TAB 1: INTRO / ABOUT ME ============ -->
+							<article id="intro">
+								<h2 class="major">About Me</h2>
+								<!-- Optional picture. Replace images/intro.jpg, or delete this line to remove it. -->
+								<span class="image main"><img src="images/intro.jpg" alt="Your Name" /></span>
+								<!-- EDIT: your introduction -->
+								<p>Hi! I'm <strong>Your Name</strong>, a [PhD student / researcher / undergraduate] in the Department of [Your Department] at [Your University]. I work with [Advisor Name] on [one-sentence summary of your research area].</p>
+								<p>Before this, I studied [previous degree] at [previous school]. I'm interested in [interest one], [interest two] and [interest three]. Outside the lab you'll usually find me with a camera — see my <a href="gallery.html">photos</a>.</p>
+								<p>Take a look at my <a href="#research">research</a>, grab my <a href="#cv">CV</a>, or <a href="#contact">get in touch</a>.</p>
+							</article>
 
+						<!-- ============ TAB 2: RESEARCH ============ -->
+							<article id="research">
+								<h2 class="major">Research</h2>
+								<p>EDIT: A short paragraph describing your overall research program — the big question you are working on and why it matters.</p>
 
+								<!-- One project. Copy this whole <div class="project"> block to add another. -->
+								<div class="project">
+									<h3>Project Title One</h3>
+									<p class="meta">2024 – present · with Collaborator Name</p>
+									<p>Two or three sentences describing the question, your approach, and what you found.</p>
+								</div>
 
+								<div class="project">
+									<h3>Project Title Two</h3>
+									<p class="meta">2022 – 2024</p>
+									<p>Two or three sentences describing the question, your approach, and what you found.</p>
+								</div>
 
+								<h3 class="major">Publications</h3>
+								<ol class="pubs">
+									<li><strong>Your Name</strong>, Co-author A, Co-author B. “Title of the paper.” <em>Journal Name</em>, 2025. <a href="#">[PDF]</a> <a href="#">[DOI]</a></li>
+									<li>Co-author A, <strong>Your Name</strong>. “Title of another paper.” <em>Conference Name</em>, 2024. <a href="#">[PDF]</a></li>
+								</ol>
 
+								<h3 class="major">Talks &amp; Posters</h3>
+								<ul class="alt">
+									<li>“Talk title,” Conference / Seminar Name, City, 2025</li>
+									<li>“Poster title,” Meeting Name, City, 2024</li>
+								</ul>
+							</article>
 
+						<!-- ============ TAB 3: CV ============ -->
+							<article id="cv">
+								<h2 class="major">CV</h2>
+								<ul class="actions">
+									<!-- Replace files/cv.pdf with your real CV (keep the same file name) -->
+									<li><a href="files/cv.pdf" class="button primary icon fa-download" target="_blank">Download full CV (PDF)</a></li>
+								</ul>
 
-							</p>
-						</article>
+								<h3 class="major">Education</h3>
+								<div class="cv-item">
+									<p class="when">2023 – present</p>
+									<p><strong>Ph.D., Your Field</strong><br />Your University</p>
+								</div>
+								<div class="cv-item">
+									<p class="when">2019 – 2023</p>
+									<p><strong>B.S., Your Field</strong><br />Previous University</p>
+								</div>
 
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-		
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
+								<h3 class="major">Experience</h3>
+								<div class="cv-item">
+									<p class="when">2023 – present</p>
+									<p><strong>Graduate Research Assistant</strong><br />Name of Lab, Your University</p>
+								</div>
+								<div class="cv-item">
+									<p class="when">Summer 2022</p>
+									<p><strong>Research Intern</strong><br />Organization Name</p>
+								</div>
+
+								<h3 class="major">Awards</h3>
+								<ul class="alt">
+									<li>Award or fellowship name, 2024</li>
+									<li>Scholarship name, 2021</li>
+								</ul>
+
+								<h3 class="major">Skills</h3>
+								<p>Python · R · MATLAB · LaTeX · (your lab techniques / tools)</p>
+							</article>
+
+						<!-- ============ TAB 4: COMMUNITY ============ -->
+							<article id="community">
+								<h2 class="major">Community</h2>
+								<p>EDIT: A sentence about why community and service matter to you.</p>
+
+								<div class="project">
+									<h3>Outreach / Club / Organization Name</h3>
+									<p class="meta">Role · 2023 – present</p>
+									<p>What you do and the impact — e.g., organizing monthly stargazing nights for local high-school students.</p>
+								</div>
+
+								<div class="project">
+									<h3>Mentoring or Volunteering</h3>
+									<p class="meta">Role · 2021 – 2023</p>
+									<p>What you do and the impact.</p>
+								</div>
+
+								<div class="project">
+									<h3>Leadership / Service</h3>
+									<p class="meta">Role · Year</p>
+									<p>What you do and the impact.</p>
+								</div>
+							</article>
+
+						<!-- ============ TAB 6: CONTACT ============ -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<!-- EDIT: your email and office -->
+								<p>The best way to reach me is by email: <a href="mailto:you@example.com">you@example.com</a><br />
+								Office: Room 000, Building Name, Your University</p>
+
+								<!--
+									This form works on GitHub Pages through Formspree (free):
+									1) Sign up at formspree.io and create a form.
+									2) Replace YOUR_FORM_ID below with the ID it gives you.
 								-->
-								<b>Imaging Polarimetry of M83 Galaxy</b> <br>
-								<p> Magnetic fields regulate the overall star formation in galaxies and play a crucial role in molecular cloud evolution. Yet, their
-								detailed morphology remains largely unclear. The galactic magnetic fields consist of two main components: a regular component 
-								and a turbulent component. The regular component of the magnetic field arises mainly from large-scale dynamo processes. Isotropic fields 
-								in the turbulent component, are created by chaotic processes like supernova explosions, stellar winds, and gas turbulence resulting in random, 
-								directionless fields. Anisotropic magnetic fields result from compression, shear, or ordered flows in the ISM, where processes like 
-								differential rotation and gas cloud dynamics align random fields into more ordered structures. </p>
-					
-								<p> Figure 1 shows the V-band optical polarization map of the M83 galaxy, observed using the VLT/FORS1. The original resolution of the 
-								polarization map is 0.7" which is rebinned to a resolution of 4.4". Figure 2 shows the 6 cm radio 
-								polarization map 12", obtained by combining data from the VLA and Effelsberg telescopes. While radio 
-								polarization is very well tracing the large-scale ordered magnetic fields (composed of regular and anisotropic magnetic fields), it is 
-								unable to capture the small-scale isotropic turbulent fields often present in star-forming regions and galactic outflows. These regions
-								are crucial for understanding the interplay between magnetic fields, star formation, and feedback processes. Optical polarization, 
-								however, is able to trace a lot more turbulent features. This result is revolutionary and demonstrates the capability of 
-								imaging polarimetry to study interstellar dust, magnetic fields, and galactic structures. </p>
+								<form method="post" action="https://formspree.io/f/YOUR_FORM_ID">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" required />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4" required></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
 
+								<!-- EDIT: put your own links in place of the # signs. Delete any line you don't need. -->
+								<ul class="icons">
+									<li><a href="mailto:you@example.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="#" class="icon fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								</ul>
+							</article>
 
-								
-						<div class="image-container">
-    <img src="images/HST_colored_pol1_fin.jpg" alt=""/>
-    <img src="images/radio_HST.jpg" alt=""/>
-</div>
-<figcaption>
-    Figure 1 (left): V band polarization map at a resolution of 14" over HST colored image of M83.
-    The polarization vectors have length proportional to the degree of polarization. The color image was computed using HST F438W 
-    (blue), a combination of F555W and F547M (green), and F814W (red). Figure 2 (right): 6 cm radio polarization map at a resolution of 
-    13.6" over the HST-colored image.
-</figcaption>
-
-<style>
-    .image-container {
-        display: flex;  /* Places images side by side */
-        justify-content: center; /* Centers images horizontally */
-        gap: 10px; /* Adds space between images */
-    }
-    
-    .image-container img {
-        max-width: 45%; /* Ensures images fit well */
-        height: auto; /* Maintains aspect ratio */
-    }
-</style>
-							</p>
-							<br>
-								<p>
-
-						
-							
-							<b>UV-Optical Analysis of High-Velocity Type Ia Supernova</b> <br> 
-							<p>A type Ia supernova (SN Ia) is the explosion of a carbon-oxygen (CO) white dwarf (WD) in a binary or multiple system.
-							Owing to the well-established correlations between their maximum luminosity and light curve decline rate 
-							and between their colors and peak luminosity, these objects are ideal for measuring distances across the 
-							universe. This has led to the groundbreaking discovery of the accelerated expansion of the universe and, in-turn dark energy. </p>
-
-							<p> However, despite the widespread use of SNe Ia to map cosmic expansion, the intrinsic diversity in their progenitors 
-							and explosion mechanisms remain poorly understood, leading to systematic biases. There have been several classifications within SNe Ia based 
-							on their light curve evolution and spectral features. The 91T-like or 99aa-like objects show a slow-declining, hot, 
-							luminous end in their light curves. They have prominent Fe III features with weak Si II features in their maximum-light spectra. 
-							99aa-like SNe Ia also show strong Ca II absorption that is much weaker in 91T-like objects. The 91bg-like objects are fast-declining, 
-							cool, and subluminous. They are mostly found in the older stellar populations (i.e., passive host galaxies) and are sometimes claimed to be 
-							a separate population from more normal SNe Ia. Si II absorption features play a key role in the spectral classification of SNe Ia. 
-							Based on the blueshifted velocity of Si II absorption lines at the B-band maximum, SNe Ia are classified as normal velocity (NV, v < 12000 km/s) 
-							or high velocity (HV, v >= 12000 km/s). Another classification of SNe Ia is proposed based on the absorption equivalent widths of 
-							Si II λ 5972 and λ 6355 at maximum light: core normal (CN), broad line (BL), cool (CL), and shallow silicon (SS). An intriguing aspect 
-							of these features is the presence of high-velocity components, commonly observed in early-time spectra. Ca II near-infrared (NIR) triplet 
-							(λλλ 8498, 8542, 8662 Å) and Ca II H&K (λλ 3934, 3968 Å), also exhibit high-velocity components. The exact origin of these high velocity 
-							features (HVFs) remains uncertain. </p>
-
-							<p> Through my current research, I am studying the HST UV spectroscopy of 2022hrs, a HV SN Ia. HV SNe Ia tend to show intrinsically redder 
-							colors compared to the normal SN Ia. Understanding the spectral and color evolution of a HV SN Ia is essential in understanding whether these
-							SNe have a different progenitor system or explosion mechanism compared to the normal SNe Ia. Our preliminary analysis has shown that HV SNe Ia
-							show different color evolution pre and post maxima compared to a normal SN Ia. They also tend to be affected by higher line-blanketing and show
-							some absorption features which are not particularly prominent in other SNe Ia. Refer to the poster for more details. 
-							<!-- <p><a <b>Poster</b></a> <br> -->
-							
-									
-						
-						</p>
-							<br>
-								<p>
-							<b>Spectropolarimetry of Supernovae </b><br> Spectropolarimetry is a powerful diagnostic tool to study the geometry of the explosion by 
-							studying the geometry of the supernova explosion by quantifying the asphericity of the explosion through polarization. The levels of polarization
-							and asphericity helps us distinguish between the different explosion mechanisms at play and hints at the progenitor system of the supernovae 
-							explosion. 
-							
-						
-							<p><a href="https://orcid.org/0000-0001-5965-0997"> <b>Publications</b></a> <br>
-							<p><a href="https://iopscience.iop.org/article/10.3847/1538-3881/ada557"> <b>Ground-based Reconnaissance Observations of 21 Exoplanet Atmospheres with the Exoplanet Transmission Spectroscopy Imager</b></a>
-							<p><a href="https://academic.oup.com/mnras/article/520/1/560/6988185"> <b>The core normal Type Ia supernova 2019np – an overall spherical explosion with an aspherical surface layer and an aspherical 56Ni core</b></a>
-						<p><a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac8d5f"> <b>Spectropolarimetry of the Thermonuclear Supernova SN 2021rhu: High Calcium Polarization 79 Days after Peak Luminosity</b></a>
-						
-						<br>
-						<p>
-							
-						</article>
-
-						<!-- Here is a the "Posters & Talks" card. -->
-						<article id="resources">
-							<h2 class="major">Posters & Talks</h2>
-							
-								<p></p><b> Imaging Polarimetry of M83 Galaxy </b><br> 
-								
-								<a href="images/Craigfest_pres.pdf" target="_blank">View Poster (PDF)</a>
-								</p>
-							
-							</ul>
-						</article>
-			
-
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-						<span class="image main">
-								<img src="images/out2.jpeg" alt=""/>
-							
-						
-			
-							</span>
-
-					
-							<p>
-								<b>Outreach: </b> As an astronomer, my passion lies in exploring the mysteries of the universe and sharing these wonders with others. 
-									Through outreach initiatives, I aim to spark curiosity and inspire awe about the beauty and complexity of the cosmos. 
-									I participate in Astronomy on Tap presentations, stargazing events, and interactive workshops, to make astronomy accessible 
-									to people of all ages and backgrounds. 
-							</p>
-							<p>
-								<b>Equity & Inclusion: </b> As the former Treasurer of the Graduate Student Assembly for Physics and Astronomy and an officer in the Society for Underrepresented 
-								in Physics and Astronomy, 
-								I am dedicated to advocating for the needs of graduate students and fostering a supportive environment within our academic community. 
-								These organizations serve as vital platforms for addressing the challenges faced by graduate students, including mental health concerns, and provide a space for open 
-								discussion and support. Through our work, we aim to promote inclusivity and address diversity gaps in the fields of physics and astronomy, 
-								ensuring that all voices are heard and valued. Together, we strive to create a more equitable and supportive environment for all members of our academic community.
-
-							
-
-
-
-
- </b>
-							</p>
-						</article>
-
-				<!-- Here is a the "Image" card. -->
-<article id="Images">
-    <h2 class="major">Images</h2>
-    <div class="image-container">
-        <img src="images/HST_colored_pol1_fin.jpg" alt="Gallery image from research"/>
-    </div>
-</article>
 					</div>
 
-
-				
-
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email: </b>dimi_24@tamu.edu
-							</p>
-							
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="https://twitter.com/Cosmic_DiMi" class="icon fa-twitter">
-										<span class="label">X</span>
-									</a>
-								</li>
-								<!-- The LinkedIn icon -->
-								<li>
-									<a href="https://www.linkedin.com/in/divyamishra2410/" class="icon fa-linkedin">
-										<span class="label">LinkedIn</span>
-									</a>
-								</li>
-				
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/Divya2410" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-	</article>
-					</div>  <!-- closes #main -->
-
-	
-
-					<!-- This is the footer that appears at the bottom of the page -->
+				<!-- Footer -->
 					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-						<p class="copyright">&copy; Divya Mishra. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Your Name. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
 
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
+		<!-- Background (the picture is images/bg.jpg) -->
 			<div id="bg"></div>
 
-			<!-- Scripts -->
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
@@ -373,4 +220,3 @@
 
 	</body>
 </html>
-
