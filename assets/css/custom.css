@@ -1,0 +1,68 @@
+/*
+	Custom additions for the research site (on top of Dimension's main.css).
+	Safe to edit. Nothing here needs to change for normal content updates.
+*/
+
+/* --- Six-button navigation: tighter so it fits on one row on desktop --- */
+#header nav ul li a {
+	min-width: 6.5rem;
+	padding: 0 1rem 0 1.15rem;
+	letter-spacing: 0.15rem;
+	text-align: center;
+}
+
+/* Tablets: show the six buttons as a neat 3 x 2 grid */
+@media screen and (min-width: 481px) and (max-width: 980px) {
+	#header nav ul {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	#header nav ul li {
+		border-left: solid 1px #ffffff;
+		border-top: solid 1px #ffffff;
+	}
+	#header nav ul li:nth-child(3n+1) { border-left: 0; }
+	#header nav ul li:nth-child(-n+3) { border-top: 0; }
+	#header nav.use-middle:after { display: none; }
+}
+
+/* --- Research / Community project blocks --- */
+#main article .project {
+	margin: 0 0 2rem 0;
+	padding-left: 1.25rem;
+	border-left: solid 2px rgba(255, 255, 255, 0.35);
+}
+#main article .project h3 {
+	margin-bottom: 0.25rem;
+}
+#main article .meta,
+#main article .cv-item .when {
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	opacity: 0.7;
+	margin-bottom: 0.5rem;
+}
+
+/* --- Publications list --- */
+#main article ol.pubs li {
+	margin-bottom: 0.9rem;
+	line-height: 1.6;
+}
+
+/* --- CV rows: date on the left, details on the right --- */
+#main article .cv-item {
+	display: grid;
+	grid-template-columns: 9rem 1fr;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+#main article .cv-item p { margin: 0; }
+#main article .cv-item .when { padding-top: 0.2rem; }
+
+@media screen and (max-width: 480px) {
+	#main article .cv-item {
+		grid-template-columns: 1fr;
+		gap: 0.1rem;
+	}
+}
