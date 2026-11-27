@@ -13,14 +13,22 @@
 -->
 <html lang="en">
 	<head>
-		<!-- EDIT: the name shown in the browser tab -->
 		<title>Side Quest</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/gallery.css" />
+		<style>
+			/* Spotify players show only in the full-size pop-up, not on the grid */
+			.thumb .music { display: none; }
+			.poptrox-popup .caption .music {
+				display: block;
+				margin-top: 0.75rem;
+				border-radius: 12px;
+				max-width: 420px;
+			}
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/gallery-noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
